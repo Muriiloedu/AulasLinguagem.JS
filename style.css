@@ -1,0 +1,147 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Tom de branco suave */
+    color: #333; /* Cor do texto principal */
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+.logo img {
+    max-width: 150px; /* Ajuste o tamanho do logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+nav a:hover {
+    color: #b8860b; /* Tom de dourado ao passar o mouse */
+}
+
+#banner {
+    background: linear-gradient(to right, #f0f0f0, #fff); /* Gradiente suave */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #b8860b; /* Tom de dourado */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #946b09; /* Tom de dourado mais escuro ao passar o mouse */
+}
+
+.product-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-item .description {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.product-item .price {
+    font-size: 1.2em;
+    color: #b8860b; /* Tom de dourado */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contato {
+    background-color: #f0f0f0; /* Tom de cinza claro */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
