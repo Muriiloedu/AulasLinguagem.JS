@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.teste{
+    margin: 200px;
+    border: 1px black;
+    margin: auto;
+}
