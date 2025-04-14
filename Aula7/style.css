@@ -1,69 +1,188 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 5px solid;
 }
 
-.carmel{
-    border-color: red (30,255,0);
-    order: 1;
+.camel {
+    border-color: red;
 }
 
-.cat{
-    border-color: blue (30,255,0);
-    order: 0;
+.cat {
+    border-color: blue;
 }
 
-.horse{
-    border-color: green (30,255,0);
-    order: -1;
+.horse {
+    border-color: green;
 }
 
-main{
-    height: 50%;
+.exercicio1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+ 
+}
+.exercicio2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.exercicio3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.exercicio4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.exercicio5 {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    height: 500px;
+}
+.exercicio6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 500px;
+}
+.exercicio7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    height: 500px;
+}
+.exercicio8 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.exercicio9 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.exercicio10 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.exercicio11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 800px;
+}
+.exercicio12 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 10px;
+    height: 800px;
+}
+.exercicio13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    height: 500px;
+}
+.exercicio14 {
+    display: flex;
+    .cat {
+        order: 1;
+    }
+}
+.exercicio15{
+    display: flex;
+    .cat {
+        order: -1;
+    }
+}
+.exercicio16 {
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;    
+    padding: 10px;
+    height: 500px;
+    .cat {
+        align-self: flex-end;
+    }   
+
+}
+.exercicio17 {
+    display: flex;
+    flex-direction: flex-start;   
+    padding: 10px;
+    height: 500px;
+    .cat {
+        order: 1;
+        align-self: flex-end;
+    }   
+}
+.exercicio18 {
+    display: flex;
+    flex-wrap: wrap;   
+    padding: 10px;
+    height: 500px; 
+}
+.exercicio19 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    padding: 10px;
+    height: 500px;  
+}
+.exercicio20 {
+    display: flex;
+    flex-flow:row nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    padding: 10px;
+    height: 500px;  
+}
+.exercicio21 {
+    display: flex;
+    flex-wrap: wrap;   
+    align-content: flex-start;
+    padding: 10px;
+    height: 500px;  
+}
+.exercicio22 {
+    display: flex;
+    flex-wrap: wrap;   
+    align-content: flex-end;
+    padding: 10px;
+    height: 500px;  
+}
+.exercicio23 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column-reverse;   
+    align-content: center;
+    padding: 10px;
+    height: 500px;  
 }
-
-body{
+.exercicio24 {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.section1{
-    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
     justify-content: center;
-    align-items: center;
-}
-
-.section2{
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-}
-
-.section3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 10px;
+    height: 1200px;  
 }
