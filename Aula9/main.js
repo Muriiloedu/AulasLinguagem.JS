@@ -20,7 +20,7 @@ function Button1() {
 function Button2() {
 
     const img = document.querySelector("img");
-    img.src = "imagens/cat.png";
+    img.src = "Imagens/cat.png";
 
     document.querySelector("h1").classList.remove("ativo");
 }
